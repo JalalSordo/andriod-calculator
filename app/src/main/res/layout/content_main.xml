@@ -13,7 +13,6 @@
         android:layout_marginTop="116dp"
         android:text="@string/buttonAddition"
         android:visibility="visible"
-        app:backgroundTint="@android:color/system_accent2_800"
         app:layout_constraintEnd_toStartOf="@+id/buttonMultiplication"
         app:layout_constraintHorizontal_bias="0.802"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,6 @@
         android:layout_marginBottom="32dp"
         android:text="@string/buttonSubstraction"
         android:visibility="visible"
-        app:backgroundTint="@android:color/system_accent2_800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonDivision"
         app:layout_constraintHorizontal_bias="0.8"
@@ -58,7 +56,6 @@
         android:layout_marginTop="44dp"
         android:text="@string/buttonX"
         android:visibility="visible"
-        app:backgroundTint="@android:color/system_accent2_800"
         app:layout_constraintStart_toStartOf="@+id/buttonZero"
         app:layout_constraintTop_toBottomOf="@+id/buttonZero"
         tools:targetApi="s" />
@@ -70,7 +67,6 @@
         android:layout_marginTop="8dp"
         android:text="@string/buttonDivision"
         android:visibility="visible"
-        app:backgroundTint="@android:color/system_accent2_800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/buttonMultiplication"
         app:layout_constraintTop_toBottomOf="@+id/buttonMultiplication"
@@ -230,4 +226,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
